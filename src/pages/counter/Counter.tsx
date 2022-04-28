@@ -1,5 +1,5 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { RootState } from "../../app/store";
 
 type CounterProps = {
@@ -12,6 +12,7 @@ const Counter: React.FC<CounterProps> = ({label}) => {
     return (
         <>
             <h1>{label}</h1>
+            <p>Counter: {counter}</p>
         </>
     );
 };
