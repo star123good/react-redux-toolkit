@@ -1,6 +1,7 @@
 import React from "react";
 import Counter from "./Counter";
 import AddButton from "./AddButton";
+import ClearButton from "./ClearButton";
 
 const CounterPage: React.FC = () => {
     return (
@@ -14,6 +15,9 @@ const CounterPage: React.FC = () => {
             />
             <AddButton 
                 title="Add ++"
+            />
+            <ClearButton 
+                title="Clear"
             />
         </>
     );
