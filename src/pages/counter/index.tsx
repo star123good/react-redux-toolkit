@@ -14,7 +14,6 @@ const CounterPage: React.FC = () => {
             />
             <AddButton 
                 title="Add ++"
-                increase={1}
             />
         </>
     );
